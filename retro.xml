@@ -6,7 +6,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://pics.filmaffinity.com/the_new_alfred_hitchcock_presents_tv_series-812272559-large.jpg</thumbnail>
 		<fanart>https://i.ytimg.com/vi/gVoFCFT_xG4/hqdefault.jpg</fanart>
@@ -32,12 +32,12 @@
 </item> 
 
 <item>
-<title>Norte Y Sur</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Norte Y Sur **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://dessjuest.files.wordpress.com/2012/01/norte-y-sur.jpg</thumbnail>
 		<fanart>http://www.nostalgia80.com/wp-content/uploads/2015/01/norteysur2.jpg</fanart>
@@ -63,12 +63,12 @@
 </item> 
 
 <item>
-<title>Cheers</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Cheers **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://seriesadicto.com/img/series/cheers.jpg</thumbnail>
         <fanart>http://www.serialzone.cz/obrazky/fanart/542-na-zdravi-1-serie.jpg</fanart>
@@ -101,7 +101,7 @@
 </item>
 
 <tem>
-<title>Cheers</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Cheers **</title>
 <link>http://Ignoreme</link>
 <thumbnail>http://seriesadicto.com/img/series/cheers.jpg</thumbnail>
 <fanart>http://www.serialzone.cz/obrazky/fanart/542-na-zdravi-1-serie.jpg</fanart>
@@ -109,12 +109,12 @@
 </item>
 
 <item>
-<title>El Zorro</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** El Zorro **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://www.qserie.com/files/uploads/5126.jpg</thumbnail>
 		<fanart>http://k31.kn3.net/taringa/1/2/2/F/A/B/olivera_carp14/501.jpg</fanart>
@@ -147,12 +147,12 @@
 </item>
 
 <item>
-<title>Los Invencibles de Nemesis</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Los Invencibles de Nemesis **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://multimedia.fnac.com/multimedia/Images/ES/NR/20/5e/12/1203744/1507-1.jpg</thumbnail>
 		<fanart>http://1.bp.blogspot.com/-yHuz-hkeFZY/UL_sT8Yp4HI/AAAAAAAAAsM/SQo1Jbnpjn0/s1600/Los+invencibles.jpg</fanart>
@@ -185,12 +185,12 @@
 </item>
 
 <item>
-<title>Curro Jimenez</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Curro Jimenez **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://images-cloud.fiuxy.com/1VandYi.jpg</thumbnail>
 		<fanart>http://img.rtve.es/imagenes/curro-jimenez/1394618992819.jpg</fanart>
@@ -223,12 +223,12 @@
 </item>
 
 <item>
-<title>Kojak</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Kojak **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://images-na.ssl-images-amazon.com/images/I/51VKGZNDHZL.jpg</thumbnail>
 		<fanart>http://willysinas.com/img/cms/kojak.jpg</fanart>
@@ -261,12 +261,12 @@
 </item>
 
 <item>
-<title>El Gran Heroe Americano</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** El Gran Heroe Americano **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://www.series21.com/thumbs/series_180x270_85/315.jpg</thumbnail>
 		<fanart>http://blogs.diariovasco.com/series-gourmets/files/2012/08/327020.jpg</fanart>
@@ -299,12 +299,12 @@
 </item>
 
 <item>
-<title>Colombo</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Colombo **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://cuandofuimoslosmejores.com/wp-content/uploads/2014/12/colombo.png</thumbnail>
 		<fanart>http://www.qvemos.vertele.com/wp-content/uploads/2011/03/colombo.jpg</fanart>
@@ -337,12 +337,12 @@
 </item>
 
 <item>
-<title>Se ha Escrito un Crimen</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Se ha Escrito un Crimen **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://image5.casadellibro.com/m/ig/5/1704795.jpg</thumbnail>
 		<fanart>http://www.formulatv.com/images/noticias/55000/55004/1_c540b8fab2.jpg</fanart>
@@ -375,12 +375,12 @@
 </item>
 
 <item>
-<title>El Equipo A</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** El Equipo A **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://pics.filmaffinity.com/the_a_team_tv_series-322332863-large.jpg</thumbnail>
 		<fanart>https://ochentadas.files.wordpress.com/2014/09/069-equipo-a.jpg</fanart>
@@ -413,12 +413,12 @@
 </item>
 
 <item>
-<title>Manos A La Obra</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Manos A La Obra **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://i6.photobucket.com/albums/y248/Homermax/manosalaobra2_frontal.jpg</thumbnail>
 		<fanart>http://www.periodistadigital.com/imagenes/2016/05/04/manolo-y-benito-corporation.jpg</fanart>
@@ -451,12 +451,12 @@
 </item>
 
 <item>
-<title>V</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** V **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://4.bp.blogspot.com/-SSOBXhEZtNg/VObnlMOvHtI/AAAAAAAAHFo/lX6nqFxMBb0/s1600/p84zVyL%2B(1).jpg</thumbnail>
 		<fanart>http://3.bp.blogspot.com/-g47GWY9PYwQ/UcuduznM68I/AAAAAAAAePU/YV5cdxi87_4/s1600/vlcsnap-2013-06-26-23h01m42s91.png</fanart>
@@ -489,12 +489,12 @@
 </item>
 
 <item>
-<title>Magnum; p.i</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Magnum; p.i **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://www.liketotally80s.com/wp-content/uploads/2014/07/magnum-pi-costume-3.jpg</thumbnail>
 		<fanart>https://s-media-cache-ak0.pinimg.com/originals/f8/03/cc/f803ccf3d69952ff8870ebe54ec5bc60.png</fanart>
@@ -527,12 +527,12 @@
 </item>
 
 <item>
-<title>90210 Beverly Hills</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** 90210 Beverly Hills **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://images-na.ssl-images-amazon.com/images/I/51lpB-f8oaL._AC_UL320_SR256,320_.jpg</thumbnail>
 		<fanart>http://aretheyoldenough.com/wp-content/uploads/2014/12/90210-beverly-hills-90210-4313373-1024-768.jpg</fanart>
@@ -565,12 +565,12 @@
 </item>
 
 <item>
-<title>Melrose Place</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Melrose Place **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://www.podnapisi.net/thumbnails/moviedb/normal/AIM.jpg</thumbnail>
 		<fanart>http://2.bp.blogspot.com/-xPuBfjJ-GUs/UGxJLf8oUPI/AAAAAAAACt0/4t3LSujq-hk/s1600/1992-1999-Melrose-Place-Wallpaper-18.jpg</fanart>
@@ -603,7 +603,7 @@
 </item>
 
 <item>
-<title>Friends</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Friends **</title>
 <link>http://Ignoreme</link>
 <thumbnail>http://www.subtitles.to/v/4/4f0d9587774e124c585b0c6f4f3e2996.jpg</thumbnail>
 <fanart>http://pixel.nymag.com/imgs/daily/vulture/2016/03/23/23-friends-cover-story-lede.w750.h560.2x.jpg</fanart>
@@ -611,12 +611,12 @@
 </item>
 
 <tem>
-<title>[COLOR red]OFF [/COLOR]Friends</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR red]OFF [/COLOR]Friends **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://www.subtitles.to/v/4/4f0d9587774e124c585b0c6f4f3e2996.jpg</thumbnail>
 		<fanart>http://pixel.nymag.com/imgs/daily/vulture/2016/03/23/23-friends-cover-story-lede.w750.h560.2x.jpg</fanart>
@@ -642,12 +642,12 @@
 </item> 
 
 <item>
-<title>Kung Fu</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Kung Fu **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://images-na.ssl-images-amazon.com/images/I/71oamaTQ12L._SY550_.jpg</thumbnail>
 		<fanart>http://laboladecristal.es/wp-content/uploads/2014/01/Kung-Fu-serie.jpg</fanart>
@@ -673,12 +673,12 @@
 </item> 
 
 <item>
-<title>Los Invasores</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Los Invasores **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://mla-s2-p.mlstatic.com/821001-MLA20262633647_032015-Y.jpg</thumbnail>
 		<fanart>http://i1008.photobucket.com/albums/af208/jaigorac/1%20Jaina%20P2P/Series%20Clasicas/losinvasores1.jpg</fanart>
@@ -704,12 +704,12 @@
 </item> 
 
 <tem>
-<title>[COLOR red]OFF [/COLOR]Alf</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR red]OFF [/COLOR]Alf **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://pics.filmaffinity.com/alf_tv_series-263075555-large.jpg</thumbnail>
 		<fanart>http://www.freeway.com.uy/upload/imagenes/680x476/2013/08/21/alfs_2464.jpg</fanart>
@@ -735,12 +735,12 @@
 </item> 
 
 <item>
-<title>Alf</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Alf **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://pics.filmaffinity.com/alf_tv_series-263075555-large.jpg</thumbnail>
 		<fanart>http://www.freeway.com.uy/upload/imagenes/680x476/2013/08/21/alfs_2464.jpg</fanart>
@@ -775,12 +775,12 @@
 
 
 <item>
-<title>El Pajaro Espino</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** El Pajaro Espino **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://www.mundodescargas.com/cine/listados/imagenes/covers/2_232.jpg</thumbnail>
 		<fanart>http://www.serielizados.com/wp-content/uploads/el-pajaro-espino-series-vintage-david-castillo.jpg</fanart>
@@ -806,12 +806,12 @@
 </item> 
 
 <item>
-<title>Sandokan</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Sandokan **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://assets.lectulandia.com/b/Emilio%20Salgari/Sandokan%20(2698)/big.jpg</thumbnail>
 		<fanart>http://images.indianexpress.com/2015/11/kabir-bedi-sabdokan-759.jpg</fanart>
@@ -837,12 +837,12 @@
 </item> 
 
 <item>
-<title>Raises</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Raises **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://www.divxatope.com/uploads/torrents/images/thumbnails2/2351_raicesweb.jpg</thumbnail>
 		<fanart>http://www.abc.es/Media/201311/07/Raices--644x362.jpg</fanart>
@@ -868,12 +868,12 @@
 </item> 
 
 <item>
-<title>Los Camioneros</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Los Camioneros **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://1.bp.blogspot.com/-GiCDlGyOH9A/UIxhJpaML_I/AAAAAAAAasU/B30v7aPsn9U/s400/49326_g.jpg</thumbnail>
 		<fanart>http://2.bp.blogspot.com/-XcgLM2v6EJA/UFkO584Rv-I/AAAAAAAAWB0/W8A7jZ-yhuY/s1600/vlcsnap-2012-09-18-21h08m24s141.png</fanart>
@@ -899,12 +899,12 @@
 </item> 
 
 <item>
-<title>Doctor En Alaska</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Doctor En Alaska **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://multimedia.fnac.com/multimedia/ES/images_produits/ES/ZoomPE/2/2/6/8414906783622.jpg</thumbnail>
 		<fanart>http://www.encadenados.org/rdc/images/stories/todo_demas/num_80/Doctor_en_Alaska-5.jpg</fanart>
@@ -930,12 +930,12 @@
 </item> 
 
 <item>
-<title>Los Hombres de Harrelson</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Los Hombres de Harrelson **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://s-media-cache-ak0.pinimg.com/736x/d3/54/2c/d3542c6a7dfca7250795ef6e3410bd7b.jpg</thumbnail>
 		<fanart>http://3.bp.blogspot.com/_X1-xFn8w-i0/TBcC6_sK0oI/AAAAAAAAHeA/I9lwJU8m5CI/s1600/swat1.jpg</fanart>
@@ -961,12 +961,12 @@
 </item> 
 
 <item>
-<title>La Fuga de Logan</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** La Fuga de Logan **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://multimedia.fnac.com/multimedia/ES/images_produits/ES/ZoomPE/8/1/1/8436022313118.jpg</thumbnail>
 		<fanart>https://lh3.googleusercontent.com/-hZrhTLCKx9Y/TXj5FsQctrI/AAAAAAAAAVU/OcuYb7tusmM/s1600/LaFugadeLoganLogansRun.jpg</fanart>
@@ -992,12 +992,12 @@
 </item> 
 
 <item>
-<title>los Angeles de Charlie</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** los Angeles de Charlie **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://goo.gl/f8kafB</thumbnail>
 		<fanart>http://www.culturamas.es/wp-content/uploads/2013/09/los-%C3%A1ngeles-de-charlie.jpg</fanart>
@@ -1023,12 +1023,12 @@
 </item> 
 
 <item>
-<title>Los Cinco</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Los Cinco **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://pics.filmaffinity.com/famous_five_tv_series-337629741-large.jpg</thumbnail>
 		<fanart>https://i.ytimg.com/vi/_wszuo8McuM/hqdefault.jpg</fanart>
@@ -1054,12 +1054,12 @@
 </item> 
 
 <item>
-<title>Hombre Rico Hombre Pobre</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Hombre Rico Hombre Pobre **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://decine21.com/img/upload/obras/Hombre-rico-hombre-pobre-23158/Hombre-rico-hombre-pobre-23158-C.jpg</thumbnail>
 		<fanart>http://blogs.diariovasco.com/series-gourmets/files/2014/06/hombre-rico-cast-e1402309514983.jpg</fanart>
@@ -1085,12 +1085,12 @@
 </item> 
 
 <item>
-<title>El Halcon Callejero</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** El Halcon Callejero **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://papystreaming.com/es/files/2014/02/El-Halc%C3%B3n-Callejero.jpg</thumbnail>
 		<fanart>http://yofuiaegb.com/wp-content/uploads/2015/06/Street-Hawk.jpg</fanart>
@@ -1116,12 +1116,12 @@
 </item> 
 
 <item>
-<title>El Trueno Azul</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** El Trueno Azul **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://www.ionlitio.com/images/2010/11/trueno-azul.jpg</thumbnail>
 		<fanart>http://photos1.blogger.com/blogger/4000/3003/1600/BlueThunder.jpg</fanart>
@@ -1147,12 +1147,12 @@
 </item> 
 
 <item>
-<title>El Tunel del Tiempo</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** El Tunel del Tiempo **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://seriesblanco.com/files/uploads/3242.jpg</thumbnail>
 		<fanart>http://seriesblanco.com/files/uploads/3242.jpg</fanart>
@@ -1178,12 +1178,12 @@
 </item> 
 
 <item>
-<title>Superagente 86</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Superagente 86 **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://goo.gl/XVWVyp</thumbnail>
 		<fanart>http://www.todoretro.com/wp-content/uploads/2013/07/29.jpg</fanart>
@@ -1209,12 +1209,12 @@
 </item> 
 
 <item>
-<title>Starsky y Hutch</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Starsky y Hutch **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://pics.filmaffinity.com/starsky_hutch_tv_series-896320453-large.jpg</thumbnail>
 		<fanart>http://img.actualidadmotor.com/wp-content/uploads/2011/03/starsky-and-hutch-torino.jpg</fanart>
@@ -1240,12 +1240,12 @@
 </item> 
 
 <item>
-<title>Corrupcion en Miami</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Corrupcion en Miami **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_263serie.jpg</thumbnail>
 		<fanart>http://odstatic.com/todoseries.com/miami-vice.jpg</fanart>
@@ -1271,12 +1271,12 @@
 </item> 
 
 <item>
-<title>Aupista Hacia el Cielo</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Aupista Hacia el Cielo **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://3.bp.blogspot.com/-bZgneYrUtoo/UxvqOwq8NCI/AAAAAAAARzI/BAERAqG__C8/s1600/autopista.jpg</thumbnail>
 	<fanart>http://blogs.diariovasco.com/series-gourmets/files/2014/04/landon.jpg</fanart>
@@ -1309,12 +1309,12 @@
 </item>
 
 <tem>
-<title>[COLOR red]OFF [/COLOR]Aupista Hacia el Cielo</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR red]OFF [/COLOR]Aupista Hacia el Cielo **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://3.bp.blogspot.com/-bZgneYrUtoo/UxvqOwq8NCI/AAAAAAAARzI/BAERAqG__C8/s1600/autopista.jpg</thumbnail>
 		<fanart>http://blogs.diariovasco.com/series-gourmets/files/2014/04/landon.jpg</fanart>
@@ -1340,12 +1340,12 @@
 </item> 
 
 <item>
-<title>Mission Impossible</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Mission Impossible **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://pics.filmaffinity.com/mission_impossible_tv_series-540967023-large.jpg</thumbnail>
 		<fanart>http://s3-eu-west-1.amazonaws.com/cinemania-cdn/wp-content/uploads/2016/05/20020240/960.jpg</fanart>
@@ -1371,12 +1371,12 @@
 </item> 
 
 <item>
-<title>Seaquest</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Seaquest **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://i43.tower.com/images/mm107087765/seaquest-dsv-series-1-complete-dvd-cover-art.jpg</thumbnail>
 		<fanart>http://es.web.img2.acsta.net/pictures/14/03/17/13/19/207799.jpg</fanart>
@@ -1402,12 +1402,12 @@
 </item> 
 
 <item>
-<title>El Coche Fantastico</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** El Coche Fantastico **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://laguiatv.abc.es/archivos/201112/cochefantastico.jpg</thumbnail>
 		<fanart>http://yofuiaegb.com/wp-content/uploads/2015/07/Knight-rider.jpg</fanart>
@@ -1433,12 +1433,12 @@
 </item> 
 
 <item>
-<title>Star Treck</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Star Treck **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://images5.fanpop.com/image/photos/27300000/Star-Trek-TOS-star-trek-27332936-459-700.jpg</thumbnail>
 		<fanart>http://goo.gl/Zs0wCw</fanart>
@@ -1464,12 +1464,12 @@
 </item> 
 
 <item>
-<title>Remington Steele</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Remington Steele **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://pics.filmaffinity.com/remington_steele_tv_series-334539667-large.jpg</thumbnail>
 		<fanart>https://diariodeunatelefila.files.wordpress.com/2014/03/promo-remington-steele.jpg</fanart>
@@ -1495,12 +1495,12 @@
 </item> 
 
 <item>
-<title>Luz de Luna</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Luz de Luna **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://goo.gl/ipq4SR</thumbnail>
 		<fanart>https://i.ytimg.com/vi/GSMD9RsD8ew/hqdefault.jpg</fanart>
@@ -1526,12 +1526,12 @@
 </item> 
 
 <item>
-<title>Automan</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Automan **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://www.newvideo.com/wp-content/uploads/2015/09/AutomanTCSCover300dpi.jpeg</thumbnail>
 		<fanart>http://www.notrecinema.com/images/films/17000/17418__334597668_640.jpg</fanart>
@@ -1557,12 +1557,12 @@
 </item> 
 
 <item>
-<title>Macgyver</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Macgyver **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://images-na.ssl-images-amazon.com/images/I/51BUP4uCUbL._AC_UL320_SR224,320_.jpg</thumbnail>
 		<fanart>http://www.mubis.es/media/users/3724/131412/macgyver-os-gusto-esta-serie-que-nota-le-dais-original.jpg</fanart>
@@ -1595,12 +1595,12 @@
 </item>
 
 <item>
-<title>Twin Peaks</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Twin Peaks **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://es.web.img2.acsta.net/pictures/15/10/12/14/18/321118.jpg</thumbnail>
 		<fanart>http://www.farandula.com/wp-content/uploads/2015/07/FARANDULA-TWIN-PEAKS-SERIES-DAVID-LYNCH.jpg</fanart>
@@ -1633,12 +1633,12 @@
 </item>
 
 <tem>
-<title>[COLOR red]OFF [/COLOR]Twin peaks</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR red]OFF [/COLOR]Twin peaks **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://es.web.img2.acsta.net/pictures/15/10/12/14/18/321118.jpg</thumbnail>
 		<fanart>http://www.farandula.com/wp-content/uploads/2015/07/FARANDULA-TWIN-PEAKS-SERIES-DAVID-LYNCH.jpg</fanart>
@@ -1664,12 +1664,12 @@
 </item> 
 
 <item>
-<title>Verano Azul</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Verano Azul **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://s-media-cache-ak0.pinimg.com/236x/8e/87/90/8e879012c6ace792322929173d40fcd9.jpg</thumbnail>
 		<fanart>http://img.rtve.es/v/1181130?w=1180&preview=1314192497102.jpg</fanart>
@@ -1702,12 +1702,12 @@
 </item>
 
 <tem>
-<title>[COLOR red]OFF [/COLOR]Verano Azul</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR red]OFF [/COLOR]Verano Azul **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://s-media-cache-ak0.pinimg.com/236x/8e/87/90/8e879012c6ace792322929173d40fcd9.jpg</thumbnail>
 		<fanart>http://img.rtve.es/v/1181130?w=1180&preview=1314192497102.jpg</fanart>
@@ -1733,12 +1733,12 @@
 </item> 
 
 <item>
-<title>El Increible Hulk (latino)</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** El Increible Hulk (latino) **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://www.seriesyonkis.com/img/series/170x243/el-increible-hulk.jpg</thumbnail>
 		<fanart>http://www.flipada.com/wp-content/uploads/2016/02/hulk.jpg</fanart>
@@ -1771,12 +1771,12 @@
 </item>
 
 <item>
-<title>Embrujada</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Embrujada **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://ecx.images-amazon.com/images/I/51DuIK9wZLL.jpg</thumbnail>
 		<fanart>https://patrartarq.files.wordpress.com/2013/03/ma_sorciere_bien_aimee_1_01_vf_wt_poster.jpg</fanart>
@@ -1809,12 +1809,12 @@
 </item>
 
 <item>
-<title>Farmacia de Guardia</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Farmacia de Guardia **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://pics.filmaffinity.com/farmacia_de_guardia_tv_series-864040820-large.jpg</thumbnail>
 		<fanart>http://estaticos01.elmundo.es/blogs/elmundo/asesinoenserie/imagenes_posts/2010/02/09/farmacia%20de%20guardia_470x404.jpg</fanart>
@@ -1847,12 +1847,12 @@
 </item>
 
 <item>
-<title>Doctor Who</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Doctor Who **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://pics.filmaffinity.com/doctor_who_dr_who_tv_series-157337503-large.jpg</thumbnail>
 		<fanart>http://images-cdn.moviepilot.com/images/c_fill,h_1131,w_1920/t_mp_quality/qjmiv5for1d5vuq1izd6/which-doctor-is-your-favorite-499292.jpg</fanart>
@@ -1885,12 +1885,12 @@
 </item>
 
 <item>
-<title>La Familia Adams</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** La Familia Adams **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://pics.filmaffinity.com/the_munsters_tv_series-209314142-large.jpg</thumbnail>
 		<fanart>http://k31.kn3.net/taringa/F/C/4/B/7/0/dariomustaine/E58.jpg</fanart>
@@ -1923,12 +1923,12 @@
 </item>
 
 <item>
-<title>Perdidos en el Espacio</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Perdidos en el Espacio **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://seriesblanco.com/files/uploads/3142.jpg</thumbnail>
 		<fanart>http://cdn01.ts.infobae.com/adjuntos/164/imagenes/013/811/0013811591.jpg</fanart>
@@ -1954,12 +1954,12 @@
 </item> 
 
 <item>
-<title>Stargate SG1</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Stargate SG1 **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://img.123movies.to/2016/03/28/poster/da438f6acdfc260c8d2a5fe6d0d948cc-stargate-sg1-season-10.jpg</thumbnail>
 		<fanart>http://www.geek.com/wp-content/uploads/2014/10/stargate-sg1-stargate-sg1-atlantis-2469585-1152-785.jpg</fanart>
@@ -1992,12 +1992,12 @@
 </item>
 
 <item>
-<title>Un Paso Adelante</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Un Paso Adelante **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://multimedia.fnac.com/multimedia/ES/images_produits/ES/ZoomPE/7/4/5/8436046603547.jpg</thumbnail>
 		<fanart>http://www.tvdeguardia.com/wp-content/uploads/2014/07/un-paso-adelante-elenco.jpg</fanart>
@@ -2030,12 +2030,12 @@
 </item>
 
 <item>
-<title>Los Sopranos</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Los Sopranos **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR yellow] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://pics.filmaffinity.com/the_sopranos_tv_series-356875926-large.jpg</thumbnail>
 		<fanart>http://elpalomitron.com/wp-content/uploads/2015/06/Los-soprano-personajes.jpg</fanart>
@@ -2061,12 +2061,12 @@
 </item>
 
 <item>
-<title>Cosas de Casa</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Cosas de Casa **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR yellow] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://pics.filmaffinity.com/family_matters_tv_series-795292648-large.jpg</thumbnail>
 		<fanart>http://www.alfabetajuega.com/multimedia/imagenes/201501/97867.alfabetajuega-steve-urkel-280115.jpg</fanart>
@@ -2092,12 +2092,12 @@
 </item>
 
 <item>
-<title>El Principe de Bell Air</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** El Principe de Bell Air **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR yellow] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://3.bp.blogspot.com/--8ZbTBgVZoY/UIx3QFNIQCI/AAAAAAAAKh0/dqiryyHt9Ro/s400/1163629-gf.jpg</thumbnail>
 		<fanart>http://www.alfabetajuega.com/multimedia/imagenes/201508/118828.alfabetajuega-el-principe-de-bel-air-180815.jpg</fanart>
@@ -2123,12 +2123,12 @@
 </item>
 
 <item>
-<title>Sabrina Cosas de Brujas</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Sabrina Cosas de Brujas **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR yellow] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://3.bp.blogspot.com/-9cYxMCD7M9k/T-YLMDlmQ6I/AAAAAAAAMZw/aOv2VQzchsI/s400/18123_12_951.jpg</thumbnail>
 		<fanart>http://www.losreplicantes.com/images/articulos/0000/14/4.jpg</fanart>
@@ -2154,12 +2154,12 @@
 </item>
 
 <item>
-<title>Hostal Royal Manzanares</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Hostal Royal Manzanares **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR yellow] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://es.web.img3.acsta.net/pictures/15/06/11/10/26/578661.jpg</thumbnail>
 		<fanart>https://i.ytimg.com/vi/xnEaawUxaos/hqdefault.jpg</fanart>
@@ -2185,12 +2185,12 @@
 </item>
 
 <item>
-<title>Er Urgencias</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Er Urgencias **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR yellow] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://pics.filmaffinity.com/e_r_tv_series-570742193-large.jpg</thumbnail>
 		<fanart>http://2.bp.blogspot.com/-IwdrTCmXViQ/VBuFZJW1GuI/AAAAAAAABhs/8pEKFW58gz8/s1600/Wallpaper-er-32359697-1280-720.jpg</fanart>
@@ -2216,12 +2216,12 @@
 </item>
 
 <item>
-<title>Dinosaurios</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Dinosaurios **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR yellow] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://4.bp.blogspot.com/-2ovg2H_C9zk/UmLGs8LNM-I/AAAAAAAA0nU/Z8ZSVcPouXg/s1600/dinosaurs+01.jpg</thumbnail>
 		<fanart>http://k30.kn3.net/taringa/3/9/2/A/6/3/antoni16z16/693.jpg</fanart>
@@ -2247,12 +2247,12 @@
 </item>
 
 <item>
-<title>7 Vidas</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** 7 Vidas **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://seriesadicto.com/img/series/7-vidas.jpg</thumbnail>
 		<fanart>http://www.elnortedecastilla.es/multimedia/201501/29/media/010-gal-amparo-baro.jpg</fanart>
@@ -2285,12 +2285,12 @@
 </item>
 
 <item>
-<title>Bonanza</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Bonanza **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://classicflix.com/images/bonanza_3_1.jpg</thumbnail>
 		<fanart>http://img1.rnkr-static.com/list_img_v2/6148/286148/full/bonanza-cast-list-u1.jpg</fanart>
@@ -2323,12 +2323,12 @@
 </item>
 
 <item>
-<title>El Fugitivo</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** El Fugitivo **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://images-na.ssl-images-amazon.com/images/I/71LeQ1YIUbL._SL1151_.jpg</thumbnail>
 		<fanart>http://www.bibliofiloenmascarado.com/wp-content/uploads/2010/06/el-fugitivo-serie.jpg</fanart>
@@ -2361,12 +2361,12 @@
 </item>
 
 <item>
-<title>Walker Ranger Texas</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Walker Ranger Texas **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://images-na.ssl-images-amazon.com/images/I/51uq%2BKl-ghL.jpg</thumbnail>
 		<fanart>http://the-lineup-new.openroadintegrat.netdna-cdn.com/app/uploads/2014/12/walker-texas-ranger-border.jpg</fanart>
@@ -2399,12 +2399,12 @@
 </item>
 
 <item>
-<title>La Casa de los Lios</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** La Casa de los Lios **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://pics.filmaffinity.com/la_casa_de_los_lios_tv_series-240558816-large.jpg</thumbnail>
 		<fanart>http://www.quidsweb.com/images/series_lacasadeloslios.jpg</fanart>
@@ -2437,12 +2437,12 @@
 </item>
 
 <item>
-<title>Los Problemas Crecen</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Los Problemas Crecen **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://images-na.ssl-images-amazon.com/images/I/71TTmLNo59L._SL1289_.jpg</thumbnail>
 		<fanart>http://www.divinity.es/bbtfile/6_20120621e14D1Z.jpg</fanart>
@@ -2475,12 +2475,12 @@
 </item>
 
 <item>
-<title>Cuentame Como Paso</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Cuentame Como Paso **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://images-na.ssl-images-amazon.com/images/I/51MsTuBHcUL._AC_UL320_SR246,320_.jpg</thumbnail>
 		<fanart>http://img.rtve.es/v/3428281?w=1180&preview=1451472038289.jpg</fanart>
@@ -2514,12 +2514,12 @@
 
 
 <tem>
-<title>[COLOR red]OFF [/COLOR]Cuentame Como Paso</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR red]OFF [/COLOR]Cuentame Como Paso **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR yellow] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://images-na.ssl-images-amazon.com/images/I/51MsTuBHcUL._AC_UL320_SR246,320_.jpg</thumbnail>
 		<fanart>http://img.rtve.es/v/3428281?w=1180&preview=1451472038289.jpg</fanart>
@@ -2545,12 +2545,12 @@
 </item>
 
 <item>
-<title>Expediente X</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Expediente X **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR yellow] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://goo.gl/KOIg47</thumbnail>
 		<fanart>https://cinemania-cdn.s3.amazonaws.com/img/conts/609692f_xfiles.jpg</fanart>
@@ -2576,12 +2576,12 @@
 </item>
 
 <item>
-<title>Historias de la Cripta</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Historias de la Cripta **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR yellow] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_316serie.jpg</thumbnail>
 		<fanart>https://i.ytimg.com/vi/betG20xBcKI/hqdefault.jpg</fanart>
@@ -2607,12 +2607,12 @@
 </item>
 
 <tem>
-<title>[COLOR red]OFF [/COLOR]La Dimension Desconocida</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR red]OFF [/COLOR]La Dimension Desconocida **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR yellow] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://www.seriestop.com/images/images_dvd/la_dimension_desconocida_3.jpg</thumbnail>
 		<fanart>http://www.ladimensiondesconocidaa.com/wp-content/uploads/2015/06/La-dimension-desconocida-capitulos.jpg</fanart>
@@ -2638,12 +2638,12 @@
 </item>
 
 <item>
-<title>La Dimension Desconocida (Multi ES,CA,IN)</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** La Dimension Desconocida (Multi ES,CA,IN) **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://www.seriestop.com/images/images_dvd/la_dimension_desconocida_3.jpg</thumbnail>
 		<fanart>http://www.ladimensiondesconocidaa.com/wp-content/uploads/2015/06/La-dimension-desconocida-capitulos.jpg</fanart>
@@ -2676,12 +2676,12 @@
 </item>
 
 <item>
-<title>Los Hombres de Paco</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Los Hombres de Paco **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param2][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR yellow] [makelist.param2][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>http://http-s.ws/ysk/img/data/a576515e93c6bfd5e66cf44f0ca9140f-size-145x205-a.jpg</thumbnail>
 		<fanart>http://1.bp.blogspot.com/-NCwOF_H9zv8/U9TMyqXzs_I/AAAAAAAAAF4/t057c4E3tac/s1600/hombres+de+paco+logo.png</fanart>
@@ -2707,12 +2707,12 @@
 </item>
 
 <item>
-<title>Las Chicas de Oro</title>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Las Chicas de Oro **</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR lime] [makelist.param3][/COLOR]</title>
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
         <link>$doregex[getUrl]</link>
         <thumbnail>https://images-na.ssl-images-amazon.com/images/I/513Br9Bnb7L._AC_UL320_SR228,320_.jpg</thumbnail>
 		<fanart>http://conmanodebollo.com/wp-content/uploads/2013/06/chicasdeoro.jpg</fanart>
