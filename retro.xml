@@ -2744,3 +2744,34 @@
 <fanart>http://conmanodebollo.com/wp-content/uploads/2013/06/chicasdeoro.jpg</fanart>
 </item>
 
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Pipi Calzaslargas **</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR yellow] [makelist.param2][/COLOR] **</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://cloud10.todocoleccion.online/album-completo/tc/2009/07/02/14023745.jpg</thumbnail>
+		<fanart>http://laguiatv.abc.es/Media/201505/21/calzaslargas--644x362.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[class="name".*href="\/([^"]*)".+?>(.*?)<[\w\W\s]*?action="\/([^"]*)".+?value="(.*?)".*Token.+?value="(.*?)"]]></expres>
+<page>http://copiapop.com/Cuspide/pipi-calzaslargas-t1completa-52139/gallery,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://copiapop.com/[makelist.param3]</page>
+<rawpost>fileId=[makelist.param4]&__RequestVerificationToken=[makelist.param5]</rawpost>
+<referer>http://copiapop.com/[makelist.param1]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cloud10.todocoleccion.online/album-completo/tc/2009/07/02/14023745.jpg</thumbnail>
+<fanart>http://laguiatv.abc.es/Media/201505/21/calzaslargas--644x362.jpg</fanart>
+</item>
+
