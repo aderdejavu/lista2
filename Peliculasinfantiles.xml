@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+           
+	
+<item>
+    <title>[COLOR blue]Películas[/COLOR]</title>
+    <link>http://Ignoreme</link>
+    <externallink>http://googledrive.com/host/0B7s3iHobrWwGTllQVnJUNWlTc2c/Peliculasinfantiles2.xml</externallink>
+	<thumbnail>http://i.imgur.com/RfiT087.jpg</thumbnail>
+	<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+    </item>
+
+<item>
+    <title>[COLOR lime] Mas Películas[/COLOR]</title>
+    <link>http://Ignoreme</link>
+    <externallink>http://googledrive.com/host/0B7s3iHobrWwGTllQVnJUNWlTc2c/maspeliculasinfantiles.m3u</externallink>
+    <thumbnail>http://i.imgur.com/RfiT087.jpg</thumbnail>
+    <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+    </item>
+	
+<item>
+    <title>[COLOR blue]Barbie[/COLOR]</title>
+    <link>http://Ignoreme</link>
+    <externallink>http://googledrive.com/host/0B7s3iHobrWwGTllQVnJUNWlTc2c/barbie.xml</externallink>
+	<thumbnail>http://i.imgur.com/lfqC6iV.jpg</thumbnail>
+	<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+    </item>
+	
+<item>
+    <title>[COLOR blue]Muchos Dibujos[/COLOR]</title>
+    <link>http://Ignoreme</link>
+    <externallink>http://googledrive.com/host/0B7s3iHobrWwGTllQVnJUNWlTc2c/Muchosdibujos.xml</externallink>
+	<thumbnail>http://i.imgur.com/VtIX5cf.jpg</thumbnail>
+	<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+    </item>
+	
+<item>
+<title>[COLOR blue]Peppa Pig[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param1]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                        <thumbnail>http://estaticos.elmundo.es/television/programacion-tv/img/programas/52/296018.png</thumbnail>
+						<fanart>http://www.cestaland.com/blog/wp-content/uploads/peppa-pig-and-her-friends.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=f3hW3iYCs78&amp;list=PLldu2gYpt9I8Ww_U0ybaS0b_hiec-uCNN</page>
+             <cookieJar></cookieJar>
+</regex>
+<thumbnail>http://estaticos.elmundo.es/television/programacion-tv/img/programas/52/296018.png</thumbnail>
+<fanart>http://www.cestaland.com/blog/wp-content/uploads/peppa-pig-and-her-friends.jpg</fanart>
+</item>
+	
+<item>
+<title>[COLOR blue]100 Peliculas Infantiles[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param1]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                        <thumbnail>http://4.bp.blogspot.com/-6s7gwyOCnx4/VNM3YF62SMI/AAAAAAAACWU/pJRe6WcRDyk/s900/es.disney-spanish.wikia.com.png</thumbnail>
+						<fanart>http://4.bp.blogspot.com/-6s7gwyOCnx4/VNM3YF62SMI/AAAAAAAACWU/pJRe6WcRDyk/s900/es.disney-spanish.wikia.com.png</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=vSjqe-3lMuo&amp;list=PLNq2eaZvd5PsV1JBCbij0U6igns0HnXew</page>
+             <cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-6s7gwyOCnx4/VNM3YF62SMI/AAAAAAAACWU/pJRe6WcRDyk/s900/es.disney-spanish.wikia.com.png</thumbnail>
+<fanart>http://4.bp.blogspot.com/-6s7gwyOCnx4/VNM3YF62SMI/AAAAAAAACWU/pJRe6WcRDyk/s900/es.disney-spanish.wikia.com.png</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]Cuentos Clasicos[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param1]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                        <thumbnail>http://www.sanpablo.es/uploads/portadas/9788428530422.jpg</thumbnail>
+						<fanart>http://s517892024.mialojamiento.es/wp-content/uploads/2015/02/Cuentos-clasicos.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=yc3tgtpJlW4&amp;list=PL551CC3AF7A6A3F2D</page>
+             <cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.sanpablo.es/uploads/portadas/9788428530422.jpg</thumbnail>
+<fanart>http://s517892024.mialojamiento.es/wp-content/uploads/2015/02/Cuentos-clasicos.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]Grandes Cuentos Infantiles 1[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param1]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                        <thumbnail>http://www.sanpablo.es/uploads/portadas/9788428530422.jpg</thumbnail>
+						<fanart>http://s517892024.mialojamiento.es/wp-content/uploads/2015/02/Cuentos-clasicos.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=9G9s9EBD-_Q&amp;list=PL0qgL2Guysvh4SMLaNwTEzA7MP38qexOU</page>
+             <cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.sanpablo.es/uploads/portadas/9788428530422.jpg</thumbnail>
+<fanart>http://s517892024.mialojamiento.es/wp-content/uploads/2015/02/Cuentos-clasicos.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]Grandes Cuentos Infantiles 2[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param1]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                        <thumbnail>http://www.sanpablo.es/uploads/portadas/9788428530422.jpg</thumbnail>
+						<fanart>http://s517892024.mialojamiento.es/wp-content/uploads/2015/02/Cuentos-clasicos.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=VNZm1oRTS9E&amp;list=PL0qgL2Guysvi_cdLsBlfzLfQhHWUe7s6m</page>
+             <cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.sanpablo.es/uploads/portadas/9788428530422.jpg</thumbnail>
+<fanart>http://s517892024.mialojamiento.es/wp-content/uploads/2015/02/Cuentos-clasicos.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]Grandes Cuentos Infantiles 3[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param1]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                        <thumbnail>http://www.sanpablo.es/uploads/portadas/9788428530422.jpg</thumbnail>
+						<fanart>http://s517892024.mialojamiento.es/wp-content/uploads/2015/02/Cuentos-clasicos.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=0cQQfH61dBw&amp;list=PLlns_S4YAmeXwm-ha8pnVqqlf6KBo1JBt</page>
+             <cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.sanpablo.es/uploads/portadas/9788428530422.jpg</thumbnail>
+<fanart>http://s517892024.mialojamiento.es/wp-content/uploads/2015/02/Cuentos-clasicos.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]Grandes Cuentos Infantiles 4[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param1]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                        <thumbnail>http://www.sanpablo.es/uploads/portadas/9788428530422.jpg</thumbnail>
+						<fanart>http://s517892024.mialojamiento.es/wp-content/uploads/2015/02/Cuentos-clasicos.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=Fb_ShmCqbVk&amp;list=PLOsZnNALnBapZoU_6uD2wp4VoJUXTZSO_</page>
+             <cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.sanpablo.es/uploads/portadas/9788428530422.jpg</thumbnail>
+<fanart>http://s517892024.mialojamiento.es/wp-content/uploads/2015/02/Cuentos-clasicos.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]Grandes Cuentos Infantiles 5[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param1]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                        <thumbnail>http://www.sanpablo.es/uploads/portadas/9788428530422.jpg</thumbnail>
+						<fanart>http://s517892024.mialojamiento.es/wp-content/uploads/2015/02/Cuentos-clasicos.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=Kn6g7mwQhcY&amp;list=PLOsZnNALnBar1uDC4kbZy09x8ypZidVs_</page>
+             <cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.sanpablo.es/uploads/portadas/9788428530422.jpg</thumbnail>
+<fanart>http://s517892024.mialojamiento.es/wp-content/uploads/2015/02/Cuentos-clasicos.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]Grandes Cuentos Infantiles 6[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[makelist.param1]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                        <thumbnail>http://www.sanpablo.es/uploads/portadas/9788428530422.jpg</thumbnail>
+						<fanart>http://s517892024.mialojamiento.es/wp-content/uploads/2015/02/Cuentos-clasicos.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=rQQhXbyCqEU&amp;list=PLyUpzciQrmrG-9i-N1xGTKRYutw8cP711</page>
+             <cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.sanpablo.es/uploads/portadas/9788428530422.jpg</thumbnail>
+<fanart>http://s517892024.mialojamiento.es/wp-content/uploads/2015/02/Cuentos-clasicos.jpg</fanart>
+</item>
