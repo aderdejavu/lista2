@@ -2856,7 +2856,7 @@
 		<fanart>https://i.ytimg.com/vi/Wdofxco1ANk/hqdefault.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>diskokosmiko.mx/Manolosalamanca/los-roper-31422/list,1,4</page>
+<page>http://diskokosmiko.mx/Manolosalamanca/los-roper-31422/list,1,4</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -2874,7 +2874,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>diskokosmiko.mx/Manolosalamanca/los-roper-31422/list,1,4</referer>
+<referer>http://diskokosmiko.mx/Manolosalamanca/los-roper-31422/list,1,4</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
