@@ -16,7 +16,7 @@ Server:"IPTV España[COLOR lime] 13[/COLOR]" URL="http://giptv.gemaccs.com:8899/
 Server:"IPTV España[COLOR lime] 14[/COLOR]" URL="http://ns3622101.ip-149-202-201.eu:8000/get.php?username=fr443500&password=75019pa&type=m3u"; regex"ES:"
 Server:"IPTV España[COLOR lime] 15[/COLOR]" URL="http://ns3622101.ip-149-202-201.eu:8000/get.php?username=fr443500&password=75019pa&type=m3u"; regex"ES:"
 Server:"IPTV España[COLOR lime] 16[/COLOR]" URL="http://ca01.iptv.re:80/get.php?username=victor&password=victor&type=m3u"; regex"ES:"
-Server:"IPTV España[COLOR lime] 17[/COLOR]" URL="http://d4life.dtdns.net:8000/get.php?username=632878085&password=telegram&type=m3u"; regex""
+Server:"IPTV España[COLOR lime] 17[/COLOR]" URL="http://ns3045782.ip-5-135-142.eu:8000/get.php?username=sYKADDaJs2&password=SnoQc6v4hZ&type=m3u"; regex"ES_"
 Server:"IPTV España[COLOR lime] 19[/COLOR]" URL="http://ksportiptv.com:1557/get.php?username=iptvlinks&password=33OQaGzMvu&type=m3u"; regex"ES:"
 
 
@@ -30,7 +30,9 @@ http://ca01.iptv.re:80/get.php?username=victor&password=victor&type=m3u
 
 http://www.q7t1.com:8000/get.php?username=alfredo&password=EDc3ZSBUFu&type=m3u
 
-http://ksportiptv.com:1557/get.php?username=iptvlinks&password=33OQaGzMvu&type=m3u
+http://ns3045782.ip-5-135-142.eu:8000/get.php?username=sYKADDaJs2&password=SnoQc6v4hZ&type=m3u
+
+http://ns3045782.ip-5-135-142.eu:8000/live/sYKADDaJs2/SnoQc6v4hZ/850.ts
 
 
 
