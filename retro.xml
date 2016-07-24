@@ -2996,3 +2996,41 @@
 <fanart>http://i.imgur.com/ERPY1.png</fanart>
 </item>
 
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Las Calles De san Francisco **</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.seriestop.com/images/images_dvd/calles_san_francisco_1.jpg</thumbnail>
+		<fanart>http://www.demasiadocine.com/wp-content/uploads/2009/07/las-calles-de-san-francisco-506x269.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/frankiepentangelli/las-calles-de-san-francisco-34668/list,1,22</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/frankiepentangelli/las-calles-de-san-francisco-34668/list,1,22</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.seriestop.com/images/images_dvd/calles_san_francisco_1.jpg</thumbnail>
+<fanart>http://www.demasiadocine.com/wp-content/uploads/2009/07/las-calles-de-san-francisco-506x269.jpg</fanart>
+</item>
+
