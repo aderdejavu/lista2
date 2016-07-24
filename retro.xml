@@ -3034,3 +3034,34 @@
 <fanart>http://www.demasiadocine.com/wp-content/uploads/2009/07/las-calles-de-san-francisco-506x269.jpg</fanart>
 </item>
 
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Cuentos Asombrosos **</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2015/10/529760-cuentos-asombrosos-serie-producida-spielberg-regresa-nbc.jpg</thumbnail>
+		<fanart>http://s.libertaddigital.com/fotos/noticias/650/0/cuentos-asombrosos.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[class="name".*href="\/([^"]*)".+?>(.*?)<[\w\W\s]*?action="\/([^"]*)".+?value="(.*?)".*Token.+?value="(.*?)"]]></expres>
+<page>http://copiapop.com/mikyliky/amazing-stories-cuentos-asombrososcompleta-67126/gallery,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://copiapop.com/[makelist.param3]</page>
+<rawpost>fileId=[makelist.param4]&__RequestVerificationToken=[makelist.param5]</rawpost>
+<referer>http://copiapop.com/[makelist.param1]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2015/10/529760-cuentos-asombrosos-serie-producida-spielberg-regresa-nbc.jpg</thumbnail>
+<fanart>http://s.libertaddigital.com/fotos/noticias/650/0/cuentos-asombrosos.jpg</fanart>
+</item> 
+
