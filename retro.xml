@@ -43,7 +43,7 @@
 		<fanart>http://www.nostalgia80.com/wp-content/uploads/2015/01/norteysur2.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[class="name".*href="\/([^"]*)".+?>(.*?)<[\w\W\s]*?action="\/([^"]*)".+?value="(.*?)".*Token.+?value="(.*?)"]]></expres>
-<page>http://copiapop.com/Txarly/norte-y-sur-61831</page>
+<page>http://copiapop.com/Cuspide/norte-y-sur-completa-53976</page>
 <cookieJar></cookieJar>
 </regex>
 
