@@ -21,7 +21,7 @@ Server:"IPTV España[COLOR lime] 18[/COLOR]" URL="http://91.134.217.235:1557/get
 Server:"IPTV España[COLOR lime] 19[/COLOR]" URL="http://grandiptv.myftp.org:8000/get.php?username=5grandiptv915&password=67863345&type=m3u"; regex"ESP:"
 Server:"IPTV España[COLOR lime] 20[/COLOR]" URL="http://offside.uk.to:11118/get.php?username=asaasa&password=aziptv&type=m3u"; regex"ES:"
 Server:"IPTV España[COLOR lime] 21[/COLOR]" URL="http://91.134.217.235:1557/get.php?username=IPTV23&password=C6WzpiZO6l&type=m3u"; regex"ES:"
-Server:"IPTV España[COLOR lime] 21[/COLOR]" URL="http://149.202.209.167:8000/get.php?username=tvparanosotros@gmail.com&password=@tvparanosotros&type=m3u"; regex""
+Server:"IPTV España[COLOR lime] Deportes[/COLOR]" URL="http://149.202.209.167:8000/get.php?username=tvparanosotros@gmail.com&password=@tvparanosotros&type=m3u"; regex""
 
 
 
