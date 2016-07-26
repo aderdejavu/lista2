@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-
-
-
-<channels>
-<channels_info> 
-<title>Luces,Camara y Acción</title>
-<genre>Serie</genre>
-<description></description>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<date>2016</date>
-<credits>© Catoal</credits>
-</channels_info>
-
-<channel>
-<name>Luces,Camara y Acción</name>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<items>
-
 <item>
 <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Pagina 1 **</title>
 <link>$doregex[makelist]</link>
@@ -47,11 +27,8 @@
 <X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://goo.gl/YxvUHJ</thumbnail>
-<fanart>http://static.t13.cl/images/sizes/1200x675/1443457474-los-simpson-175237.jpg</fanart>
+<thumbnail></thumbnail>
+<fanart></fanart>
 </item>
 
 
-</items>
-</channel>
-</channels>
