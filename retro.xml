@@ -3579,4 +3579,82 @@
 <info>The Outer Limits (Los límites fronterizos o exteriores en inglés) (en Latinoamérica: Rumbo a lo desconocido; en España: Más allá del límite), es un espacio televisivo antológico de ciencia ficción estadounidense de la década de los 60s, co-creada, dirigida, escrita y producida para la cadena ABC por el director Leslie Stevens (1924-1998).Cada episodio del programa era una historia autoconclusiva, como ocurría en otros programas similares (Historias de la cripta o La dimensión desconocida). Sin embargo, y a diferencia de estos programas, las historias de The Outer Limits eran exclusivamente de ciencia ficción.Basada en relatos sobrenaturales, este programa tuvo dos temporadas 1963 a 1965. A mediados de los años 90 se realizó un remake, que duró siete temporadas, desde 1995 a 2002.</info>
 </item> 
 
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** La Conquista del Oeste **</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://images-na.ssl-images-amazon.com/images/I/51ZADAJUlXL._SX342_.jpg</thumbnail>
+		<fanart>https://josebafiestras.files.wordpress.com/2013/03/howthewestwaswon.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/frankiepentangelli/la-conquista-del-oeste-35126/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/frankiepentangelli/la-conquista-del-oeste-35126/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/51ZADAJUlXL._SX342_.jpg</thumbnail>
+<fanart>https://josebafiestras.files.wordpress.com/2013/03/howthewestwaswon.jpg</fanart>
+<info>La idea base de la serie es la película del 1962 "La conquista del Oeste" (How the West was Won) dirigida por John Ford, Henry Hathaway, George Marshall y Richard Thorpe. La serie cuenta la historia de la familia Macahan, integrada por Kate y sus cuatro hijos, que, al inicio de la Guerra de Secesión (1861) se dirige desde el estado de Virginia hacia el Oeste, con destino al territorio de Oregon en la costa del Pacífico. Durante el viaje se une a ellos el tío Zebulon "Zeb" Macahan (James Arness) un cazador, explorador del Ejército y aventurero y posteriormente, a la muerte de Kate, su hermana Molly.1 2</info>
+</item>
+
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Doce del Patibulo (Incompleta) **</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://image0.casadellibro.com/a/l/t0/30/9788494325830.jpg</thumbnail>
+		<fanart>http://4.bp.blogspot.com/-k_b5kBwS7qc/T3YDnrEjCqI/AAAAAAAAAJ4/ijjkHT6noys/s1600/1967_Dirty_Dozen_3.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/frankiepentangelli/los-12-del-patibulo-35136/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/frankiepentangelli/los-12-del-patibulo-35136/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/51ZADAJUlXL._SX342_.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-k_b5kBwS7qc/T3YDnrEjCqI/AAAAAAAAAJ4/ijjkHT6noys/s1600/1967_Dirty_Dozen_3.jpg</fanart>
+<info></info>
+</item>
+
 
