@@ -1,6 +1,6 @@
 
-Importante:"una prueba" URL=""
-Importante:"1" URL=""
-Importante:"2" URL=""
-Importante:"3" URL=""
-Importante:"Pulsa aqui para continuar" URL="https://raw.githubusercontent.com/Carlesto/Listas/master/movistar.xml"
+Importante:"1" URL=""; regex""
+Importante:"2" URL=""; regex""
+Importante:"3" URL=""; regex""
+Importante:"4" URL=""; regex""
+Importante:"Pulsa aqui para continuar" URL="https://raw.githubusercontent.com/Carlesto/Listas/master/movistar.xml"; regex""

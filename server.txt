@@ -1,5 +1,5 @@
 
-Server:"[COLOR lime]Julio[/COLOR][COLOR yellow] Actualizado el:[/COLOR][COLOR red] 29[/COLOR]" URL=""; regex""
+Server:"[COLOR yellow] Actualizado el:[/COLOR][COLOR lime] 29/07/2016[/COLOR]" URL=""; regex""
 Server:"IPTV España[COLOR lime] 01[/COLOR]" URL="http://grandiptv.myftp.org:8000/get.php?username=5grandiptv915&password=67863345&type=m3u"; regex"ESP:"
 Server:"IPTV España[COLOR lime] 02[/COLOR]" URL="http://orbit-iptv.com:2500/get.php?username=yyaayy666&password=G62RrpvyXf&type=m3u"; regex"ES:"
 Server:"IPTV España[COLOR lime] 03[/COLOR]" URL="http://orbit-iptv.com:2500/get.php?username=yyaayy666&password=G62RrpvyXf&type=m3u"; regex"ES:"
