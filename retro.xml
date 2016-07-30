@@ -3696,4 +3696,68 @@
 <info>Los protagonistas de la serie eran los componentes de un prestigioso bufete de abogados, McKenzie, Brackman, Chaney y Kuzak, tanto sus miembros asociados, como los abogados contratados y algunos oficinistas. La serie combinaba en sus argumentos la labor profesional del bufete con las vidas y relaciones personales de los abogados, los empleados, los clientes y alguno de los jueces. En cada episodio generalmente se presentaba uno o dos casos judiciales, tanto penales como civiles, que los abogados preparaban y después se mostraba el desarrollo del juicio y sus repercusiones en los implicados hasta el fallo final, además de los sucesos cotidianos paralelos de la vida de los miembros del bufete. Esto permitía que se representaran toda clase de problemas y temas de interés social.</info>
 </item>
 
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Allo Allo **</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://goo.gl/Ti4uzY</thumbnail>
+		<fanart>http://blogs.diariovasco.com/series-gourmets/files/2014/03/Allo_Allo_cast.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[class="name".*href="\/([^"]*)".+?>(.*?)<[\w\W\s]*?action="\/([^"]*)".+?value="(.*?)".*Token.+?value="(.*?)"]]></expres>
+<page>http://copiapop.com/gosseyn/allo-allo-t-1-9-56497/gallery,1,9</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://copiapop.com/[makelist.param3]</page>
+<rawpost>fileId=[makelist.param4]&__RequestVerificationToken=[makelist.param5]</rawpost>
+<referer>http://copiapop.com/[makelist.param1]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://goo.gl/Ti4uzY</thumbnail>
+<fanart>http://blogs.diariovasco.com/series-gourmets/files/2014/03/Allo_Allo_cast.jpg</fanart>
+<info>Ambientada en un café de Nouvion durante la ocupación alemana de Francia en la 2ª Guerra Mundial. Los alemanes han ocupado el pueblo y robado todos los objetos de valor, incluidos el primer reloj de cuco que se fabricó y el cuadro de Van Clomp "La Madonna caída". El comandante alemán quiere apropiarse de ellos una vez que termine la guerra, por lo que obliga al dueño del café, René François Artois, a guardárselos. Hitler también quiere el cuadro para él, por lo que envía a un agente de la Gestapo, Herr Otto Flick, para que lo encuentre. Sin embargo, Flick también quiere el cuadro para él. Al mismo tiempo, René usa el local como refugio para dos aviadores británicos de la RAF [Reales Fuerzas Aéreas], a los que la Resistencia (todos los miembros son mujeres) quiere enviar a casa.</info>
+</item> 
+
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Enredo **</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://decine21.com/img/upload/obras/Enredo-15525/Enredo-15525-C.jpg</thumbnail>
+		<fanart>http://farm4.static.flickr.com/3033/2864133654_4b14a172f7_o.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[class="name".*href="\/([^"]*)".+?>(.*?)<[\w\W\s]*?action="\/([^"]*)".+?value="(.*?)".*Token.+?value="(.*?)"]]></expres>
+<page>http://copiapop.com/gosseyn/enredo-t-1-4-56338/gallery,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://copiapop.com/[makelist.param3]</page>
+<rawpost>fileId=[makelist.param4]&__RequestVerificationToken=[makelist.param5]</rawpost>
+<referer>http://copiapop.com/[makelist.param1]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://decine21.com/img/upload/obras/Enredo-15525/Enredo-15525-C.jpg</thumbnail>
+<fanart>http://farm4.static.flickr.com/3033/2864133654_4b14a172f7_o.jpg</fanart>
+<info>La serie se ambienta en la ciudad ficticia de Dunn River, Connecticut y se centra en la familia Tate que vive en un barrio rico. Jessica Tate y su esposo, Chester, no son precisamente modelos de fidelidad a la vista de las numerosas historias de amor que han tenido a través del tiempo y que se han visto entrelazadas con varios percances familiares, incluyendo el asesinato del hijastro de su hermana Mary, Peter Campbell. Tienen tres hijos: la sensual Corinne, la conservadora Eunice y el temerario Billy. El la mansión de los Tate vive también el padre de Jessica, que es apodado "el mayor", ya que se cree que está todavía en la guerra, y va vestido con su uniforme por casa. Sew debe sumar además el mayordomo de color, Benson. La otra familia protagonista es la de los Campbell, integrada por Mary Campbell, hermana de Jessica, su marido Burt y sus hijos, Jodie que es gay, el criminal Danny criminal y el acomplejado Chuck, un ventrílocuo que se expresa sólo a través de su muñeco y alter ego Bob.La serie desarrolla muchas subtramas en los límites del surrealismo, en una trama complejamente trenzada como en las telenovelas. Entre las muchas subtramas que se desarrollan a lo largo de las diferentes temporadas: Chester se ve envuelto en un asesinato y después pierde la memoria iniciando una nueva vida como cocinero mientras su mujer Jessica se enamora de Donahue el detective que investiga el caso y luego se escapa a América del Sur al regreso de su marido; Eunice enamora de Dutch Leitner, el asesino a sueldo de Chester; Corinne se casa con un ex sacerdote, pero la hija de ambos resultará estar poseída por el diablo; Burt es secuestrado por extraterrestres y reemplazado por un clon en el que Mary mantiene relaciones sexuales quedando finalmente embarazada del extraterrestre.</info>
+</item> 
+
 
