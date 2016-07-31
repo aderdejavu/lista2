@@ -2227,7 +2227,7 @@
 		<fanart>http://k30.kn3.net/taringa/3/9/2/A/6/3/antoni16z16/693.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[class="name".*href="\/([^"]*)".+?>(.*?)<[\w\W\s]*?action="\/([^"]*)".+?value="(.*?)".*Token.+?value="(.*?)"]]></expres>
-<page>http://copiapop.com/Koba1994/dinosaurios-serie-58604/gallery,1,3</page>
+<page>http://copiapop.com/Irumhi/dinosaurios1991-70042/gallery,1,3</page>
 <cookieJar></cookieJar>
 </regex>
 
