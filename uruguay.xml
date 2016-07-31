@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channel>
+<name>TV URUGUAY</name>
+<info>Canales de Tv</info>
+<thumbnail>http://i.imgur.com/TOQt7Ap.jpg</thumbnail>
+<fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+	
+<items>
+
+
+
+<item>
+<title>Canales TV.VERA (Algunos solo para Uruguay)</title>
+<link>$doregex[makelist]</link>
+<regex>
+      <name>makelist</name>
+      <listrepeat><![CDATA[
+               <title>[COLOR yellow] [makelist.param2][/COLOR]</title>
+               <link>$doregex[getM3U8]</link>
+      ]]></listrepeat>
+      <expres><![CDATA[<span>\s*.<a href="(.*?)" title="(.*?)">]]></expres>
+      <page>http://tv.vera.com.uy/canales</page>
+	  <cookieJar></cookieJar>
+	  <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+</regex>
+
+<regex>
+<name>getM3U8</name>
+<expres>setup..file: "(.*?m3u8)"</expres>
+<page>$doregex[getPage]</page>
+<referer>http://tv.vera.com.uy/canales</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+<cookie></cookie>
+</regex>
+
+<regex>
+<name>getPage</name>
+<expres>iframePlayerContent'\).attr\('src', '(.*?)['^]\);\s*\}</expres>
+<page>http://tv.vera.com.uy[makelist.param1]</page>
+<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</agent>
+<cookieJar></cookieJar>
+</regex>
+</item> 
+	 
+	        <item>
+            <title>1 TV Salto HD</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6769</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6769/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>
+			
+			<item>
+            <title>Canal 2 San Carlos</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/8204</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/8204/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>
+
+            <item>
+            <title>CANAL A+V</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6707</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6707/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>
+						
+            <item>
+            <title>Artigas Television</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6044</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6044/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>
+			
+			<item>
+            <title>Cámara de Representantes</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6763</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6763/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>
+		       
+			 <item>
+            <title>Cámara de Senadores</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6054</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6054/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>  
+			
+			<item>
+            <title>Canal 7 Punta</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/10425</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/10425/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>
+			
+			<item>
+            <title>CANAL 10</title>
+            <link>$doregex[url]</link>
+            <regex>
+            <name>url</name>
+            <expres>hls": "(.*?)"</expres>
+            <page>http://content.zetatv.com.uy/content/1a92dbdb-5701-46cc-b865-f2b17195afbb/embed/url/?video_type=wowzaadmin&amp;token=</page>
+            <referer>http://content.zetatv.com.uy/content/1a92dbdb-5701-46cc-b865-f2b17195afbb/embed/?poster=http://web10.images.production.s3.amazonaws.com/uploads/image/image/398/AHORA_EN_VIVO-950x540.jpg</referer>
+            <x-req>XMLHttpRequest</x-req>
+            <cookieJar>$doregex[Cookie]</cookieJar>
+            </regex>
+            <regex>
+            <name>Cookie</name>
+            <expres></expres>
+            <page>http://content.zetatv.com.uy/content/1a92dbdb-5701-46cc-b865-f2b17195afbb/embed/?poster=http://web10.images.production.s3.amazonaws.com/uploads/image/image/398/AHORA_EN_VIVO-950x540.jpg</page>
+            <referer>http://www.canal10.com.uy/pages/live-tv</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6047/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>
+			
+			<item>
+            <title>Canal 11 Las Piedras</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6055</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6055/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>
+
+            <item>
+            <title>Canal 11 Treinta y Tres</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6853</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6853/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>  
+
+            <item>
+            <title>Canal 12 Melo</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6074</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6074/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>  
+			
+			 <item>
+            <title>Canal 2 Lascano</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6090</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6090/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>  
+			
+			<item>
+            <title>Canal 2 Visión Canaria</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/9411</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/9411/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item> 
+
+            <item>
+            <title>Canal 23 TVD</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/8961</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/8961/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>  			
+			
+		    <item>
+            <title>Canal 4 Chuy</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6057</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6057/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>  	
+
+			<item>
+            <title>CANAL 4 HD Treinta y Tres</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6061</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6061/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+			
+			<item>
+            <title>Canal 4 Juan Lacaze</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6157</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6157/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+  
+            <item>
+            <title>Canal 4 Paysandú</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/9239</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/9239/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+			
+			<item>
+            <title>Canal 4 Salto</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/8081</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/8081/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+			
+			<item>
+            <title>Canal 5 Noticias Deportes</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/8071</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/8071/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+			
+			<item>
+            <title>Canal 6 Durazno</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6070</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6070/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+		
+		    <item>
+            <title>Canal 8 Artigas</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/9366</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/9366/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+			
+			<item>
+            <title>Canal 8 de Rocha</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6071</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6071/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+		
+	    	<item>
+            <title>Canal 8 Durazno</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6077</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6077/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+			
+			<item>
+            <title>Canal 8 Rivera</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/9369</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/9369/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+		
+	    	<item>
+            <title>Canal 9 Telerocha</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6067</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6067/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+
+			<item>
+            <title>Canal CV 10</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/9880</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/9880/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+
+            <item>
+            <title>Canal U</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/7609</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/7609/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+
+			<item>
+            <title>Charrúa TV</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6038</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6038/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>
+
+			<item>
+            <title>El Canal de la Región - Noreste Canelones</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6703</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6703/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+		   
+		    <item>
+            <title>Espectador TV</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/10034</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/10034/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+			
+			<item>
+            <title>Los Profesionales</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/7131</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/7131/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+		
+	    	<item>
+            <title>Mi Móvil TV</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/7073</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/7073/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>
+		
+		    <item>
+            <title>Presidencia Uruguay</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6730</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6730/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+			
+			<item>
+            <title>Rio Uruguay Television</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/10032</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/10032/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+			
+			<item>
+            <title>RN3G</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/7065</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/7065/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+			
+			
+            <item>
+            <title>Soy Tacuarembó TV</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6880</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6880/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+			
+			<item>
+            <title>Televisión Nacional</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6042</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6042/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+			
+			<item>
+            <title>Tevé Ciudad</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6046</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6046/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+			
+			<item>
+            <title>TVL Pando</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6764</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6764/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>
+						       
+			<item>
+            <title>VTV</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6031</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6031/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>
+
+            <item>
+            <title>VTV+</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6804</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6804/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+			
+			<item>
+            <title>Monte Carlo TV</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6040</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6040/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+			
+			<item>
+            <title>Uruguay Natural TV</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6068</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6068/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+			
+			<item>
+            <title>Vera+ HD</title>
+            <link>$doregex[get-url]</link>
+            <regex>
+            <name>get-url</name>
+            <expres>file: "(.*?)"</expres>
+            <page>$doregex[get-ifr]</page>
+            <referer>http://tv.vera.com.uy</referer>
+            </regex>
+            <regex>
+            <name>get-ifr</name>
+            <expres>'src', '(.*extras.*?)'</expres>
+            <page>http://tv.vera.com.uy/canal/6001</page>
+            <referer>http://tv.vera.com.uy</referer>
+            <cookieJar></cookieJar>
+            </regex>
+            <thumbnail>http://veratv.cdn.antel.net.uy/dynamic/content_images/6001/128/default.jpg</thumbnail>
+            <fanart>http://i.imgur.com/4EwPUOD.jpg</fanart>
+            </item>	
+   
+	
+</items>
+</channel>
