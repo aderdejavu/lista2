@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+
+
+
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** The Walking Dead **</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param2][/COLOR] **</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://goo.gl/FQXYEj</thumbnail>
+		<fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/06/601410-walking-dead-temporada-8-podria-estar-confirmada-ya.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[class="name".*href="\/([^"]*)".+?>(.*?)<[\w\W\s]*?action="\/([^"]*)".+?value="(.*?)".*Token.+?value="(.*?)"]]></expres>
+<page>http://copiapop.com/KarladC/the-walking-dead-zombis-58247/gallery,1,30</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://copiapop.com/[makelist.param3]</page>
+<rawpost>fileId=[makelist.param4]&__RequestVerificationToken=[makelist.param5]</rawpost>
+<referer>http://copiapop.com/[makelist.param1]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://goo.gl/FQXYEj</thumbnail>
+<fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/06/601410-walking-dead-temporada-8-podria-estar-confirmada-ya.jpg</fanart>
+<info></info>
+</item> 
