@@ -1,4 +1,6 @@
 
+
+Server:"[COLOR yellow] Propiedad de[/COLOR][COLOR lime] Catoal[/COLOR]" URL=""; regex""
 Server:"[COLOR yellow] Actualizado el:[/COLOR][COLOR lime] 01/08/2016[/COLOR]" URL=""; regex""
 Server:"IPTV España[COLOR lime] 01[/COLOR]" URL="http://grandiptv.myftp.org:8000/get.php?username=5grandiptv915&password=67863345&type=m3u"; regex"ESP:"
 Server:"IPTV España[COLOR lime] 02[/COLOR]" URL="http://ksportiptv.com:1557/get.php?username=albtv-by-albtechno&password=www.albtv-app.com&type=m3u"; regex"ES:"
@@ -25,6 +27,7 @@ Server:"IPTV España[COLOR lime] 22[/COLOR]" URL="http://91.134.217.235:1557/get
 erver:"IPTV España[COLOR lime] 23[/COLOR]" URL=""; regex"ES:"
 erver:"IPTV España[COLOR lime] 24[/COLOR]" URL=""; regex"ES:"
 Server:"IPTV España[COLOR lime] Deportes[/COLOR]" URL="http://149.202.209.167:8000/get.php?username=tvparanosotros@gmail.com&password=@tvparanosotros&type=m3u"; regex""
+
 
 
 
