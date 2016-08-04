@@ -3878,4 +3878,43 @@
 <info>Nunca quedó claro el nombre del misterioso planeta, pero al parecer los habitantes habrían de conocer La Tierra y a Venus e incluso Marte que en algún episodio son referidos. Tampoco quedaba clara la exacta ubicación del planeta, pero podía suponerse que estaba dentro de nuestro sistema solar, y también que aún cercano a la Tierra se desconociera su existencia. Se especuló que este mundo sin nombre sería alguna versión paralela del nuestro.En el episodio "On a Clear Night You Can See Earth", el capitán Steve Burton reportaba el haber visto la Tierra a través de unos visores infrarrojos inventados por los gigantes, implicando que los dos mundos eran diferentes pero casualmente cercanos el uno del otro. Eso indicaba la posibilidad de que las aventuras tuvieran lugar en una "Contra-Tierra". El único método por el cual la gente de la Tierra podría alcanzar a este planeta sería a través de una nave de vuelo de gran altitud e interactuando con una no muy bien definida "cuerda o rizo espacio-temporal" que actuaría más bien como una "burbuja temporal" o "agujero de gusano". Sin embargo si uno postula la noción de que estaba en la misma órbita de la tierra y que el rizo temporal opera coincidentemente para propulsar objetos hacia adelante o en retroceso seis meses la Tierra cambiaría su posición respecto de este planeta. En otros episodios se mostró al menos otros dos vuelos que llegaban al mismo planeta pero nunca se esclareció si alguno regreso a la Tierra con éxito.</info>
 </item>
 
+<item>
+<title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** Jackass **</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR blue]C[/COLOR][COLOR yellow]T[/COLOR][COLOR red]A[/COLOR] ** [COLOR lime] [makelist.param3][/COLOR] **</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://tvfiles.alphacoders.com/774/poster-thumb-7745.jpg</thumbnail>
+		<fanart>http://www.metro951.com/wp-content/uploads/2015/01/Jackass-635x326.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/elrules/jackass-35641/list,1,22</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/elrules/jackass-35641/list,1,22</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://tvfiles.alphacoders.com/774/poster-thumb-7745.jpg</thumbnail>
+<fanart>http://www.metro951.com/wp-content/uploads/2015/01/Jackass-635x326.jpg</fanart>
+<info></info>
+</item>
+
 
