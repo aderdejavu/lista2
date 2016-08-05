@@ -20,13 +20,17 @@ Server:"IPTV España[COLOR lime] 15[/COLOR]" URL="http://ns3622101.ip-149-202-20
 Server:"IPTV España[COLOR lime] 16[/COLOR]" URL="http://149.202.90.35:8080/get.php?username=6wR53llk86&password=6Xx2q7V7QB&type=m3u"; regex"ES_"
 Server:"IPTV España[COLOR lime] 17[/COLOR]" URL="http://camerta.com:8000/get.php?username=55239&password=55239&type=m3u"; regex"ES:"
 Server:"IPTV España[COLOR lime] 18[/COLOR]" URL="http://camerta.com:8000/get.php?username=55239&password=55239&type=m3u"; regex"ES:"
-erver:"IPTV España[COLOR lime] 19[/COLOR]" URL=""; regex"ES-"
+Server:"IPTV España[COLOR lime] 19[/COLOR]" URL="http://www.q7t1.com:8000/get.php?username=sYKADDaJs2&password=SnoQc6v4hZ&type=m3u"; regex"ES_"
 erver:"IPTV España[COLOR lime] 20[/COLOR]" URL=""; regex"ES:"
 erver:"IPTV España[COLOR lime] 21[/COLOR]" URL=""; regex"ES:"
 erver:"IPTV España[COLOR lime] 22[/COLOR]" URL=""; regex"Es-"
 erver:"IPTV España[COLOR lime] 23[/COLOR]" URL=""; regex"ES:"
 erver:"IPTV España[COLOR lime] 24[/COLOR]" URL=""; regex"ES:"
 Server:"IPTV España[COLOR lime] Deportes[/COLOR]" URL="http://149.202.209.167:8000/get.php?username=tvparanosotros@gmail.com&password=@tvparanosotros&type=m3u"; regex""
+
+
+
+http://www.q7t1.com:8000/get.php?username=sYKADDaJs2&password=SnoQc6v4hZ&type=m3u
 
 
 
