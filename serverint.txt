@@ -1,7 +1,7 @@
 
 
 Server:"[COLOR yellow] Propiedad de[/COLOR][COLOR lime] Catoal[/COLOR]" URL=""; regex""
-Server:"[COLOR yellow] Actualizado el:[/COLOR][COLOR lime] 03/08/2016[/COLOR]" URL=""; regex""
+Server:"[COLOR yellow] Actualizado el:[/COLOR][COLOR lime] 05/08/2016[/COLOR]" URL=""; regex""
 Server:"IPTV Internacional[COLOR lime] 01[/COLOR]" URL="http://topiptv.net:5890/get.php?username=adamo3&password=adamo3&type=m3u"; regex""
 Server:"IPTV Internacional[COLOR lime] 02[/COLOR]" URL="http://62-210-214-31.rev.poneytelecom.eu:5890/get.php?username=es1&password=es1&type=m3u"; regex""
 Server:"IPTV Internacional[COLOR lime] 03[/COLOR]" URL="http://ns3622101.ip-149-202-201.eu:8000/get.php?username=fr443500&password=75019pa&type=m3u"; regex""
@@ -9,7 +9,7 @@ Server:"IPTV Internacional[COLOR lime] 04[/COLOR]" URL="http://62-210-214-31.rev
 Server:"IPTV Internacional[COLOR lime] 05[/COLOR]" URL="http://62-210-214-31.rev.poneytelecom.eu:5890/get.php?username=es4&password=es4&type=m3u"; regex""
 Server:"IPTV Internacional[COLOR lime] 06[/COLOR]" URL="http://62-210-214-31.rev.poneytelecom.eu:5890/get.php?username=es2&password=es2&type=m3u"; regex""
 Server:"IPTV Internacional[COLOR lime] 07[/COLOR]" URL="http://178.33.237.109:8600/get.php?username=lexar&password=lexar&type=m3u"; regex""
-erver:"IPTV Internacional[COLOR lime] 08[/COLOR]" URL=""; regex""
+Server:"IPTV Internacional[COLOR lime] 08[/COLOR]" URL="http://www.q7t1.com:8000/get.php?username=sYKADDaJs2&password=SnoQc6v4hZ&type=m3u"; regex""
 erver:"IPTV Internacional[COLOR lime] 09[/COLOR]" URL=""; regex""
 
 

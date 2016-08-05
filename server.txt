@@ -30,7 +30,7 @@ Server:"IPTV España[COLOR lime] Deportes[/COLOR]" URL="http://149.202.209.167:8
 
 
 
-http://www.q7t1.com:8000/get.php?username=sYKADDaJs2&password=SnoQc6v4hZ&type=m3u
+
 
 
 
